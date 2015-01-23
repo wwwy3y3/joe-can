@@ -1,0 +1,1034 @@
+
+#content, html, body {
+    height: 100%;
+	margin:0px;
+	padding: 0px;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	
+}
+
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#content {
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	line-height: 1em;
+	color: #333;
+	font-weight: normal;
+}
+
+
+.hide{
+	display:none;
+}
+
+@font-face {
+    font-family: 'CircularStd-Bold';
+    src: url('http://joeschlaud.com/fonts/CircularStd-Bold.otf');
+
+}
+
+body {
+  font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+letter-spacing: -.1em;
+  	text-align: center;
+  background: #f7f5f5;
+  color: #333;
+
+}
+
+a.thumb:hover {
+    cursor:url("http://www.joeschlaud.com/images/thumb-hand.png"), auto !important;
+}
+
+.projects {
+	margin-bottom:-10%;
+	margin-top: 0%;
+	
+}
+
+
+a {  
+	
+	text-decoration: none;
+	color: inherit;
+	-webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
+
+
+
+ul
+{
+    list-style-type: none;
+	padding:0; margin:0; 
+}
+
+
+
+#color {
+    background: #f7f5f5;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+
+#hero1 {
+	z-index: 998;
+}
+
+#hero2 {
+	z-index: 999;
+}
+
+.hero{
+	width: 100%;
+	
+	
+
+	}
+.hero h1{
+	position:relative;
+font-weight: normal;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+
+.hero h6{
+	position:relative;
+font-weight: normal;
+
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+
+
+.hero:hover {
+	cursor:url("http://www.joeschlaud.com/images/thumb-hand.png"), auto !important;
+	
+	
+	
+}
+
+h1 {
+	line-height: 1.1em;
+	letter-spacing:.01em;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-size: 80px;
+	color: #333;
+	font-weight:normal; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: left;
+	
+
+}
+
+h7 {position:fixed;
+
+	bottom: 1em;
+	line-height: 1.1em;
+	letter-spacing:.01em;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-size: 45px;
+	font-weight: normal; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 1%;
+	text-align: center;
+
+}
+
+h8 {position:fixed;
+
+	bottom: 1em;
+	line-height: 1.1em;
+	letter-spacing:.01em;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-size: 45px;
+	font-weight: normal; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 1%;
+	text-align: center;
+}
+
+
+#arrow {display: none; 
+	left: 50%;
+	right: auto;
+	width: 1%;
+	z-index: 1;
+}
+
+.arrow {display: none; 
+	
+}
+
+
+h6 {
+	line-height: 1.1em;
+font-weight: normal;
+    margin-top:0%;
+	letter-spacing:.01em;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-size: 160px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+
+
+
+#rgt {
+	letter-spacing: .01em;
+	position: fixed; 
+	right: 1.5em;
+	bottom: 1.5em;
+	font-size: 20px;
+	width: 100%;
+	text-align: right;
+
+}
+
+
+h2 {
+	text-align: center;
+		margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;
+	font-size: 80px;
+	line-height: 1em;
+	color: #333;
+	font-weight:normal; 
+	padding-top: 6%;
+
+	margin-bottom:0;
+	font-weight: normal;
+}
+	
+
+
+h3 {
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;font-weight:normal; 
+	line-height: 1em;
+	text-align:left;
+	letter-spacing:.02em; 
+	font-weight: normal;
+	text-decoration: none;
+	color: inherit;
+	font-size: 25px;
+}
+
+h3:hover {
+	cursor:url("http://www.joeschlaud.com/images/point-hand.png"), auto !important;
+	OFF-text-decoration:underline;
+	color: #333;
+	
+}
+
+h4 { 
+line-height: 1.3em;
+font-size: 25px;
+	  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+   letter-spacing: .02em;
+   font-weight: normal;
+	
+}
+
+h5 { 
+font-size: 25px;
+font-weight: normal;
+margin-top: 5px;
+margin-right: 35px;
+
+   letter-spacing: .02em;
+	
+}
+
+
+
+#sobo {
+	
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(right, #00CFEF 0%, #EC00B5 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(right, #00CFEF 0%, #EC00B5 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(right, #00CFEF 0%, #EC00B5 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #00CFEF), color-stop(1, #EC00B5));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(right, #00CFEF 0%, #EC00B5 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to left, #00CFEF 0%, #EC00B5 100%);
+}
+
+.big-img1 { 
+	height:auto; 
+	width:85%;
+	margin-top: -10%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 10%;
+}
+
+
+.big-img2 { 
+	height:auto; 
+	width:85%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 10%;
+}
+
+
+#big-img3 { 
+
+position: fixed;
+	height:auto; 
+	width:6%;
+	left: 47%;
+	right: 47%;
+	bottom: 10%;
+}
+#big-img4 { 
+
+position: fixed;
+	height:auto; 
+	width:10%;
+	left: 40%;
+	right: 50%;
+	top: 10%;
+}
+#big-img5 { 
+
+position: fixed;
+	height:auto; 
+	width:10%;
+	left: 50%;
+	right: 40%;
+	top: 10%;
+}
+
+.eye { 
+	
+}
+
+
+.homepage {
+	width: 70%;
+	top: 0px;
+position: fixed;
+margin-left:50%;
+	padding: 0px;
+}
+
+#homepage {
+	width: 50%;
+	top: 0px;
+margin-left:-25%;
+background-color:#FFFFFF;
+height:100%;
+	padding: 0px;
+
+}
+
+
+
+
+#popupimg {
+	position: fixed; 
+	top: 0px; 
+	max-height:100%; 
+	margin-left:50%;
+	width: 51%; 
+	background: #f7f5f5;
+	overflow:auto; 
+	text-align:center; 
+	padding: 0px;
+	
+}
+
+
+
+#popupimg .popupimg-inner { 
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;text-align:center; 
+	font-size: 30px; 
+	color: #333;
+	line-height: 1em;
+	margin-left: 0%;
+	margin-right: 3%;
+	margin-bottom: 50px;
+	}
+	
+	
+	
+	#popupimg2 {
+	position: absolute; 
+	width:51%;
+	top: 0px; 
+	max-height:100%; 
+	background: #f7f5f5;
+	overflow:auto; 
+	
+
+}
+
+
+
+
+#popupimg2 .popupimg-inner2 { 
+	font-family: 'CircularStd-Bold', 'Source Sans Pro', sans-serif;margin-bottom: 50px;
+	}
+
+
+
+
+.rotateLft {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.rotateRgt {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+
+
+
+
+@-webkit-keyframes color-grad
+{
+	0%   { fill: #5ab246 }
+	25%   { fill: #8ec73f }
+	50%   { fill: #c7d931}
+	75%   { fill: #c8da2c}
+	100%   { fill: #5ab246}
+}
+
+@-moz-keyframes color-grad
+{
+	0%   { fill: #5ab246}
+	25%   { fill: #8ec73f}
+	50%   { fill: #c7d931 }
+	75%   { fill: #c8da2c }
+	100%   { fill: #5ab246}
+}
+
+@keyframes color-grad
+{
+	0%   { fill: #5ab246}
+	25%   { fill: #8ec73f}
+	50%   { fill: #c7d931}
+	75%   { fill: #c8da2c }
+	100%   { fill: #5ab246 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-img-replace {
+  /* replace text with a background-image */
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+.cd-main-content {
+
+  /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
+  min-height: 100%;
+  position: relative;
+  background-color: #f7f5f5;
+  margin:0px;
+	padding: 0px;
+  z-index: 2;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.cd-main-content.lateral-menu-is-open {
+  /* translate to show the lateral menu - all content needs to be put in the .cd-main-content to translate*/
+  -webkit-transform: translateX(-360px);
+  -moz-transform: translateX(-360px);
+  -ms-transform: translateX(-360px);
+  -o-transform: translateX(-360px);
+  transform: translateX(-360px);
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .cd-main-content {
+  }
+}
+
+header {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 3;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+header.lateral-menu-is-open {
+  /* translate to show the lateral menu */
+  -webkit-transform: translateX(-360px);
+  -moz-transform: translateX(-360px);
+  -ms-transform: translateX(-360px);
+  -o-transform: translateX(-360px);
+  transform: translateX(-360px);
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 70px;
+  }
+}
+
+#cd-logo {
+  display: block;
+  float: left;
+  margin: 12px 0 0 20px;
+}
+#cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  #cd-logo {
+    margin: 22px 0 0 30px;
+  }
+}
+
+#cd-top-nav {
+  position: absolute;
+  top: 0;
+  right: 120px;
+  height: 100%;
+  display: none;
+}
+#cd-top-nav ul {
+  height: 100%;
+  padding-top: 18px;
+}
+#cd-top-nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+#cd-top-nav a {
+  display: inline-block;
+  padding: .5em;
+  color: #333;
+  font-weight: 600;
+}
+#cd-top-nav a.current {
+
+}
+.no-touch #cd-top-nav a:hover {
+
+}
+@media only screen and (min-width: 768px) {
+  #cd-top-nav {
+    display: block;
+  }
+}
+
+#cd-menu-trigger {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  height: 100%;
+  width: 60px;
+}
+.one {
+	  position: absolute;
+left: 28px;
+  top: 19px;
+  height: 100%;
+  width: 60px;
+  display: none;
+	
+}
+
+
+
+#cd-menu-trigger .cd-menu-text {
+  height: 100%;
+  color: #333;
+  font-weight: 600;
+  display: none;
+}
+
+#cd-menu-trigger .cd-menu-icon {
+  /* this span is the central line in the menu menu */
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  /* these are the upper and lower lines in the menu menu */
+}
+#cd-menu-trigger .cd-menu-icon::before, #cd-menu-trigger .cd-menu-icon:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: inherit;
+  left: 0;
+}
+#cd-menu-trigger .cd-menu-icon::before {
+  bottom: 5px;
+}
+#cd-menu-trigger .cd-menu-icon::after {
+  top: 5px;
+}
+#cd-menu-trigger.is-clicked .cd-menu-icon {
+  background-color: rgba(255, 255, 255, 0);
+}
+#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {
+  background-color: #333;
+}
+#cd-menu-trigger.is-clicked .cd-menu-icon::before {
+  bottom: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#cd-menu-trigger.is-clicked .cd-menu-icon::after {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+@media only screen and (min-width: 768px) {
+  #cd-menu-trigger {
+    width: 110px;
+    padding-left: 1.25em;
+  }
+  #cd-menu-trigger .cd-menu-text {
+    display: inline-block;
+    line-height: 70px;
+  }
+  #cd-menu-trigger .cd-menu-icon {
+    left: auto;
+    right: 2em;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+#cd-lateral-nav {
+  position: fixed;
+  height: 100%;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  /* the secondary navigation is covered by the main element */
+  z-index: 1;
+  width: 360px;
+  overflow-y: auto;
+
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;
+  -moz-transition: -moz-transform .4s 0s, visibility 0s .4s;
+  transition: transform .4s 0s, visibility 0s .4s;
+  /* this creates the subtle slide in animation of the navigation */
+  -webkit-transform: translateX(120px);
+  -moz-transform: translateX(120px);
+  -ms-transform: translateX(120px);
+  -o-transform: translateX(120px);
+  transform: translateX(120px);
+}
+#cd-lateral-nav .cd-navigation {
+  margin: 10px 0 16px;
+}
+#cd-lateral-nav .sub-menu {
+  padding: 0 10px 20px 15px;
+  display: none;
+}
+#cd-lateral-nav a {
+  display: block;
+  line-height: 2em;
+  padding: 0 16px 0 32px;
+}
+#cd-lateral-nav a.current {
+  background-color: #3a4a4d;
+  color: #333;
+}
+.no-touch #cd-lateral-nav a:hover {
+
+}
+@media only screen and (min-width: 768px) {
+  #cd-lateral-nav .cd-navigation {
+    margin: 20px 0;
+  }
+}
+#cd-lateral-nav.lateral-menu-is-open {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  visibility: visible;
+  -webkit-transition: -webkit-transform .4s 0s, visibility 0s 0s;
+  -moz-transition: -moz-transform .4s 0s, visibility 0s 0s;
+  transition: transform .4s 0s, visibility 0s 0s;
+  /* smooth the scrolling on touch devices - webkit browsers */
+  -webkit-f-scrolling: touch;
+}
+
+/* style menu items which have a submenu  */
+#cd-lateral-nav .item-has-children > a {
+  position: relative;
+  font-weight: 600;
+  /* this is the right arrow to show that the item has a submenu  */
+}
+#cd-lateral-nav .item-has-children > a::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 1em;
+  background: url("../img/cd-arrow.svg") no-repeat center center;
+  background-size: 8px 11px;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+#cd-lateral-nav .item-has-children > a.submenu-open::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -moz-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  -o-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+
+#cd-lateral-nav .socials {
+  padding: 0 32px;
+}
+#cd-lateral-nav .socials:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#cd-lateral-nav .socials a {
+  height: 32px;
+  width: 32px;
+  float: left;
+  padding: 0;
+  background-image: url("../img/cd-socials.svg");
+  background-repeat: no-repeat;
+  background-size: 128px 64px;
+  background-color: #333;
+  margin-right: .5em;
+  border-radius: 0.25em;
+}
+#cd-lateral-nav .socials a.cd-twitter {
+  background-position: 0 0;
+}
+#cd-lateral-nav .socials a.cd-github {
+  background-position: -32px 0;
+}
+#cd-lateral-nav .socials a.cd-facebook {
+  background-position: -64px 0;
+}
+#cd-lateral-nav .socials a.cd-google {
+  background-position: -96px 0;
+}
+.no-touch #cd-lateral-nav .socials a:hover {
+  background-color: #4e6361;
+}
+.no-touch #cd-lateral-nav .socials a:hover.cd-twitter {
+  background-position: 0 -32px;
+}
+.no-touch #cd-lateral-nav .socials a:hover.cd-github {
+  background-position: -32px -32px;
+}
+.no-touch #cd-lateral-nav .socials a:hover.cd-facebook {
+  background-position: -64px -32px;
+}
+.no-touch #cd-lateral-nav .socials a:hover.cd-google {
+  background-position: -96px -32px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+h1 {
+	font-size: 70px;
+	width: 80%;
+}
+
+
+
+h6 {	
+font-size: 130px;
+
+}
+
+
+h2 {
+	width: 65%;
+	font-size: 70px;
+}
+	
+
+h3, h5 {
+	font-size: 25px;
+}
+
+
+h4 { 
+
+font-size: 25px;
+margin-left: 30%;
+margin-right: 30%;	
+}
+
+.big-img1, .big-img2 { 
+	
+	width:95%;
+	padding-bottom: 10%;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	
+	h1 {
+	font-size: 50px;
+	width: 80%;
+}
+
+
+
+h6 {	
+font-size: 100px;
+
+}
+
+
+h2 {
+	width: 65%;
+	font-size: 50px;
+}
+	
+
+h3, h5 {
+	font-size: 18px;
+}
+
+
+h4 { 
+
+font-size: 18px;
+margin-left: 15%;
+margin-right: 15%;	
+}
+
+.big-img1, .big-img2 { 
+	
+	width:99%;
+	padding-bottom: 10%;
+}
+	
+	
+	
+	
+	
+	}
+	
+	
+	@media screen and (max-width: 664px) {
+	
+	
+	h1 {
+	font-size: 35px;
+	width: 80%;
+}
+
+
+
+h6 {	
+font-size: 90px;
+
+}
+
+
+h2 {
+	width: 65%;
+	font-size: 35px;
+}
+	
+#big-img3 { 
+
+
+	width:10%;
+	left: 45%;
+	right: 45%;
+	
+}
+#big-img4 { 
+
+ 
+	width:15%;
+	left: 35%;
+	right: 50%;
+	top: 10%;
+}
+#big-img5 { 
+
+
+	width:15%;
+	left: 50%;
+	right: 35%;
+}
+
+	
+	
+	
+	
+	}
