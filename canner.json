@@ -7,7 +7,7 @@
 		"greeting": "Oh, hello.",
 		"fb": "wwwy3y3",
 		"profile": "i am wwwy3y3, born in taipei, a lovely place! I love web development and enjoy my life",
-		"contact": "i am wwwy3y3, web developer, currently in love with nodeJS!",
+		"contact": "-o__o-",
 		"projects": [
 			{
 				"anchor": "p106",
@@ -29,9 +29,19 @@
 		]
 	},
 	"columns": {
+		"title": "html title",
+		"description": "html description",
+		"icon": "html icon",
+		"greeting": "頁面的第一行字",
 		"fb": {
 			"type": "user.socmed.fb.account",
 			"description": "臉書帳號"
-		}
+		},
+		"profile": {
+			"type": "user.profile.description",
+			"description": "自我介紹"
+		},
+		"contact": "如何聯絡",
+		"projects": "做過的project"
 	}	
 }
