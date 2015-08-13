@@ -34,11 +34,11 @@
 		"icon": "html icon",
 		"greeting": "頁面的第一行字",
 		"fb": {
-			"type": "user.socmed.fb.account",
+			"format": "user.socmed.fb.account",
 			"description": "臉書帳號"
 		},
 		"profile": {
-			"type": "user.profile.description",
+			"format": "user.profile.description",
 			"description": "自我介紹"
 		},
 		"contact": "如何聯絡",
