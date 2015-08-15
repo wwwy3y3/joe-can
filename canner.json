@@ -8,6 +8,16 @@
 		"fb": "wwwy3y3",
 		"profile": "i am wwwy3y3, born in taipei, a lovely place! I love web development and enjoy my life",
 		"contact": "-o__o-",
+		"books": {
+			"hadoop":{
+				"ISBN": "1234",
+				"date": "yesterday"
+			},
+			"spark":{
+				"ISBN": "2354",
+				"date": "yesterday"
+			}
+		},
 		"projects": [
 			{
 				"anchor": "p106",
@@ -26,7 +36,14 @@
 				"subtitle": "Illustration—Design",
 				"images": ["./public/halloween_1.png"]
 			}
-		]
+		],
+		"matrix": [
+			["yes", "man"],
+			["bee", "be2"]
+		],
+		"players":{
+			"mvp": ["curry", "ig"]
+		}
 	},
 	"columns": {
 		"title": "html title",
@@ -42,6 +59,28 @@
 			"description": "自我介紹"
 		},
 		"contact": "如何聯絡",
-		"projects": "做過的project"
+		"projects": {
+			"anchor": "anchor",
+			"bg-color": "背景色",
+			"nav-title": "title in nav",
+			"title": "big title",
+			"subtitle": "sub title",
+			"images": "照片"
+		},
+		"books": {
+			"hadoop":{
+				"ISBN": "isbn",
+				"date": "什麼時候看"
+			},
+			"spark":{
+				"ISBN": "isbn",
+				"date": "什麼時候看"
+			}
+		},
+		"matrix": "簡單的矩陣",
+		"players":{
+			"description": "球員",
+			"mvp": "mvp們"
+		}
 	}	
 }

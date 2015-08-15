@@ -1,6 +1,6 @@
 {
   "name": "joe-can",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "joe-can",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git@github.com:wwwy3y3/joe-can.git"
   },
   "keywords": [
-    "canner-can"
+    "canner-can",
+    "beta"
   ],
   "author": "wwwy3y3",
   "license": "mit",
